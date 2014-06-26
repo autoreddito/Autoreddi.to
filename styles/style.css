@@ -1,0 +1,112 @@
+/* RESETS AND BASIC PAGE SETUP */
+
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll; }
+body {
+    font: 62.5% Helvetica, sans-serif; 
+    background: #000000;
+    color: #778A96;
+}
+
+ul#nav {
+    height: 126px; width: 961px;
+    margin: inherit;
+}
+
+ul { 
+    list-style: none inside;
+}
+
+p {
+    font-size: 1.2em;
+    letter-spacing: .2pt;
+    line-height: 1.5em;
+    margin-bottom: 1.2em;
+    word-spacing: 0.7pt;
+}
+
+a { outline: none; 
+    color: #000033;
+    text-decoration: none;
+}
+
+a img { border: none; }
+
+/* END RESET */
+
+/* TOOLBOX */
+.floatleft { float: left; }
+.floatright { float: right; }
+.clear { clear: both; }
+/* END TOOLBOX */
+
+/* STRUCTURE AND STUFF */
+
+#page-wrap {
+    background: url(../images/autoreddito.gif) no-repeat;
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+}
+
+#header { 
+    width: auto;
+    height: 366px;
+    margin: auto;
+
+}
+
+#intro-col {
+    width: 228px;
+    float: left;
+    margin: auto auto auto 106px;
+    padding: 8px;
+}
+
+#col-2 {
+    width: 350px;
+    float: right;
+    margin: auto 106px auto auto;
+    padding: 8px;
+}
+
+#php-message { 
+    font-size: 14px;
+}
+
+#footer{ margin: auto; height: 50px; width: 972px; }
+
+#footer-inside{ width: 690px; margin: -350px auto auto; }
+
+#footer-rd{ float: right; width: 100px; height: 100px; }
+
+
+/* END STRUCTURE AND STUFF */
+
+.button { 
+    -moz-border-radius-bottomleft: 1px;
+    -moz-border-radius-bottomright: 1px;
+    -moz-border-radius-topleft: 1px;
+    -moz-border-radius-topright: 1px;
+    background:#047391 none repeat scroll 0 0;
+    border:1px none;
+    color:#9DC9CE;
+    padding:3px 8px;
+    font-size: 12px;
+}
+
+.textbox { 
+    -moz-border-radius-bottomleft: 1px;
+    -moz-border-radius-bottomright: 1px;
+    -moz-border-radius-topleft: 1px;
+    -moz-border-radius-topright: 1px;
+    background: #fffff none repeat scroll 0 0;
+    border: 1px solid;
+    color: grey;
+    padding: 3px 8px;
+    font-size: 12px;
+}
+
+.topmargin{ 
+    margin-top: 16px;
+}
