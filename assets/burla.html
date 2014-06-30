@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue 1.2 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/progrecss.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/style.css" />
+<style>
+#main {
+    margin: 10px;
+}
+.fa-6 {
+    font-size: 20em;
+}
+#main > section p{ text-align: left;}
+#main > section li{ text-align: left;  }
+#scemo {display: none;}
+#scemo h1{background:#fff;}
+.fava { background:#fff url('images/fava.gif') repeat !important;}
+img {
+    max-width: 100%;
+    height: auto;}
+</style>
+<script src="js/jquery.min.js"></script>
+<script>
+jQuery(function() {
+        $('[data-provide="scemo"]').on('click', function(e) {
+            $(".container").hide();
+            $("#scemo").show();
+            $("section").addClass( "fava" );
+
+
+        });
+        });
+</script>
+
+</head>
+<body>
+<div id="main">
+
+    <!-- Intro -->
+    <section id="top" class="one">
+        <div class="container">
+
+            <i class="fa fa-bomb fa-6 fa-spin"></i>
+
+            <header>
+                <h2 class="alt"><strong>La burla</strong> &egrave; stata svelata</h2>
+            </header>
+
+            <p>Carissimo amico/a</p>
+            <p><br /> intanto grazie per tutti i permessi che ci hai dato, supponiamo i dati del tuo cellulare fossero interessanti. Ma anche se non lo fossero noi sapremo cosa farne, li abbiamo gia' salvati su un server sicuro (per noi).<br /><br /> Ma poi, se t'e' sembrato legittimo che una roba simile venisse presentata ad un hackmeeting, fermati e prova a pensare:</p>
+            <ul style="list-style-type: square;">
+                <li>Il tipo che scimmiotta i fighetti della silicon valley</li>
+                <li>Il jargon startupparo senza senso.</li>
+                <li>La "liberta' di lavorare".</li>
+                <li>Gli incredibili risvolti etici di questo lavoro, a giustificare le condizioni di sfruttamento che ci si autoimpone.</li>
+                <li>I bitcoin come metodo per evadere le tasse.</li>
+                <li>Il sogno americano, ma in italia, con la filosofia da 2 lire "stay hungry, stay foolish" con hungry inteso che aspetti che ti inviti la famiglia a pranzo la domenica per mangiare.</li>
+                <li>Il lavoro sempre piu' a cottimo, senza tutele, senza rapporti stabili e tantomeno umani.</li>
+                <li>La trasformazione dell'hacking da gioco sregolato a strategia produttiva.</li>
+            </ul>
+            <p>Era a questo che serviva la dichiarazione d'indipendenza del cyberspazio?</p>
+            <p>Per chiedere la cancellazione vai qua.</p>
+            <p>ah! dimenticavamo, se hai qualcosa da dirci "feedback@autoreddi.to" ma<br /> ricorda, se e' piu' di 140 caratteri non lo leggiamo.</p>
+            </p>
+
+            <footer>
+                <p data-provide="scemo" class="pure-button btn-lg btn-social btn-facebook"> <i class="fa fa-facebook"></i> Sign in with Facebook </p>
+            </footer>
+
+        </div>
+        <div id="scemo">
+        <img src="images/scemo.gif"/>
+        <h1>Ahhh, non &egrave; che ti abbiamo fregato/a, &egrave; che sei proprio scemo</h1>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>

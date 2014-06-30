@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+
+    <ScrollView android:id="@+id/ScrollView01"
+                android:layout_height="300dp"
+                android:layout_width="fill_parent">
+
+        <TextView
+            android:id="@+id/testo"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+
+
+    </ScrollView>
+
+
+<!--
+    <ImageButton android:id="@+id/aboutexit"
+                 android:background="@null"
+                 android:contentDescription="@string/exitbuttondesc"
+                 android:layout_below="@id/ScrollView01"
+                 android:layout_width="wrap_content"
+                 android:layout_height="@android:dimen/app_icon_size"
+                 android:layout_centerHorizontal="true"
+                 android:src="@drawable/ic_sorti" />
+-->
+    <Button android:id="@+id/aboutexit"
+        android:text="@string/exitbuttondesc"
+        android:layout_below="@id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,85 @@
+/*
+	Prologue 1.2 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select
+	{
+		font-size: 12pt;
+	}
+
+	h2
+	{
+		font-size: 1.3em;
+		letter-spacing: 0;
+		font-weight: 200;
+	}
+
+	.container
+	{
+		padding: 0 0px 0 0px;
+	}
+
+	.image.featured
+	{
+		position: relative;
+		/*min-height: 10em;*/
+		overflow: hidden;
+	}
+	
+		.image.featured img
+		{
+			position: relative;
+			height: 10em;
+			width: auto;
+			/*
+				Stuff below is automatically calculated using JS. It sucks, but there
+				doesn't appear to be a way to center the <img> inside its parent with
+				pure CSS (since we don't know its width).
+			
+				left: 0;
+				margin-left: 0;
+			*/
+		}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+	}
+	
+		#main > section
+		{
+			/*padding: 2em 0 2em 0;*/
+		    /*padding-bottom: 100%;*/
+
+		}
+
+
+
+
+.dashboard-metric {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.dashboard-piece-graybg {
+    /*width: 100%;*/
+}
+
+.startupinner{
+font-size: 60%;
+}
+
+
+p.pure-button-primary {
+    font-size: 90%;
+}
